@@ -1,74 +1,49 @@
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/fULRwKMW)
-=======
-# Getting Started with Create React App
+# URL Shortener
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Това е приложение за създаване на кратки URL адреси с възможност за персонализиране на кода, както и добавяне на QR код за лесно споделяне. Приложението включва както front-end, така и back-end част, които използват Firebase за съхранение на данни.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Изисквания
 
-### `npm start`
+- Node.js и Yarn трябва да бъдат инсталирани на вашия компютър.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Инсталация
 
-### `npm test`
+1. Клонирайте репозитория:
+   git clone <URL>
+   
+2. Инсталирайте зависимостите:
+   yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Стартирайте приложението:
+   yarn start
+   Приложението ще бъде достъпно на http://localhost:3000.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Функционалности
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Въвеждане на дълъг URL и генериране на кратък URL.
+Персонализиране на краткия URL адрес.
+Генериране на QR код за краткия URL.
+Преглед на съществуващите URL адреси.
+Проверка за дублирани кратки URL адреси.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Използвани технологии
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React
+Firebase
+React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Забележки
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Приложението е интуитивно и адаптивно към различни размери на екрана.
+Всички URL адреси и пренасочвания се съхраняват в Firebase база данни.
+При въвеждане на вече съществуващ кратък URL, потребителят ще получи предупреждение.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Лиценз
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 6ab0f8d (Initialize project using Create React App)
+Това приложение е с отворен код. Може да го използвате и променяте, както сметнете за нужно.
